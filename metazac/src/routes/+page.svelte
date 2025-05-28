@@ -51,13 +51,6 @@
 </script>
 
 <main>
-    <nav>
-        <a href="/">Games with Friends</a>
-		<a href="/tictactoe">Tic-Tac-Toe</a>
-        <a href="/zetamac">Zetamac</a>
-        <a href="/zetamac-multiplayer">Zetamac (Multiplayer)</a>
-	</nav>
-
     {#if gameState === State.Before}
         <div id="welcome">
             <h1>Arithmetic Game</h1>
