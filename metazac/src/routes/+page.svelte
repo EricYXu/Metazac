@@ -1,6 +1,7 @@
 <script lang="ts">
     import { QuestionType, State, Question, generateRandomNumbers } from "./util.svelte";
     import QuestionBox from "./QuestionBox.svelte";
+    import { injectAnalytics } from '@vercel/analytics/sveltekit'
 
     let addSubtractLower: number = $state(2);
     let addSubtractUpper: number = $state(100);
