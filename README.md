@@ -1,3 +1,3 @@
 # Metazac
 
-Zetamac but with added customizations.
+Single-player Zetamac but with added customizations.
