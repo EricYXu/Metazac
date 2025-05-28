@@ -5,7 +5,7 @@
     let addSubtractLower: number = $state(2);
     let addSubtractUpper: number = $state(100);
     let multiplyDivideLower: number = $state(2);
-    let multiplyDivideUpper: number = $state(12);
+    let multiplyDivideUpper: number = $state(20);
     
     let score: number = $state(0);
     let timePassed: number = $state(0);
