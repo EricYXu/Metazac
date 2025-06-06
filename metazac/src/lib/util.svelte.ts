@@ -70,8 +70,8 @@ export function generateRandomNumbers(addNum1Tuple: number[], addNum2Tuple: numb
             randomNumber1 = randomNumber2;
             randomNumber2 = temp;
         }
-        else if (randomNumber1 % randomNumber2 === 0) {
-            randomNumber1 += 1
+        if (randomNumber1 % randomNumber2 === 0) {
+            randomNumber1 += 1;
         }
         return { randomNumber1, randomNumber2, problemType };
     }
